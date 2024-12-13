@@ -1,6 +1,6 @@
 package com.csc;
 
-public class Node {
-    ChainLink data;
-    Node next;
+public class Node <T> {
+    T data;
+    Node<T> next;
 }
